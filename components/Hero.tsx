@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, ArrowRight, MousePointer2 } from 'lucide-react';
+import { Github, Twitter, ArrowRight, MousePointer2, Mail } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
                 </span>
-                研究生 & 全栈开发
+                🎓 研究生 & 💻 全栈开发
              </div>
             <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-text">
               你好 👋 我是
@@ -58,6 +58,13 @@ const Hero: React.FC = () => {
                 aria-label="Twitter"
               >
                 <Twitter className="h-6 w-6" />
+              </a>
+              <a
+                href="mailto:qfpqhyl@gmail.com"
+                className="p-2 text-muted hover:text-text hover:bg-accent/10 rounded-full transition-all"
+                aria-label="Email"
+              >
+                <Mail className="h-6 w-6" />
               </a>
             </div>
           </div>

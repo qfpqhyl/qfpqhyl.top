@@ -17,7 +17,7 @@ const About: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-text mb-4">关于我</h2>
           <p className="text-muted max-w-2xl mx-auto">
-            专注于强化学习领域的研究，同时热衷于开发各种有意思的项目。
+            专注于强化学习领域的研究，同时热衷于开发各种有意思的项目。<br />
             探索技术与生活的结合点，分享开发心得与技术教程。
           </p>
         </div>
@@ -44,12 +44,14 @@ const About: React.FC = () => {
                 <div>
                     <h3 className="text-2xl font-bold text-text mb-2">学术与开发之路</h3>
                     <p className="text-muted max-w-xl">
-                        从对技术的好奇心出发，到现在专注于强化学习的前沿研究，我始终相信技术能够改变世界。
-                        在开发中探索乐趣，在研究中追求创新，在博客中分享心得。欢迎访问我的个人博客：blog.qfpqhyl.top
+                        从对技术的好奇心出发，到现在专注于强化学习的前沿研究，<br />
+                        我始终相信技术能够改变世界。<br />
+                        在开发中探索乐趣，在研究中追求创新，在博客中分享心得。<br />
+                        欢迎访问我的个人博客：blog.qfpqhyl.top
                     </p>
                 </div>
                 <div className="flex-shrink-0">
-                     <span className="font-serif text-6xl font-bold text-secondary select-none opacity-50">2028</span>
+                     <span className="text-6xl font-bold text-secondary select-none opacity-50">2028</span>
                 </div>
             </div>
         </div>

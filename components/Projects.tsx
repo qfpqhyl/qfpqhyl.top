@@ -9,8 +9,8 @@ const projects: Project[] = [
     title: 'CodeRunner',
     description: '轻量级在线代码运行与调用工具，支持多种编程语言的在线执行和调试。',
     tags: ['Python', 'React', 'Ant Design Pro'],
-    link: 'https://github.com/qfpqhyl/CodeRunner',
     github: 'https://github.com/qfpqhyl/CodeRunner',
+    link: 'https://github.com/qfpqhyl/CodeRunner',
     imageUrl: 'https://picsum.photos/seed/coderunner/800/600'
   },
   {
@@ -18,8 +18,8 @@ const projects: Project[] = [
     title: 'WebMonitor',
     description: '网页内容变动监控通知系统，实时监控网站内容变化并及时推送通知。',
     tags: ['Python', 'React', 'MUI'],
-    link: 'https://github.com/qfpqhyl/WebMonitor',
     github: 'https://github.com/qfpqhyl/WebMonitor',
+    link: 'https://github.com/qfpqhyl/WebMonitor',
     imageUrl: 'https://picsum.photos/seed/webmonitor/800/600'
   },
   {
@@ -28,6 +28,7 @@ const projects: Project[] = [
     description: '基于深度强化学习的智能决策系统研究，探索多智能体协作与环境交互。',
     tags: ['Python', 'PyTorch', 'OpenAI Gym', 'RL'],
     github: 'https://github.com/qfpqhyl/RL-Research',
+    link: 'https://github.com/qfpqhyl/RL-Research',
     imageUrl: 'https://picsum.photos/seed/reinforcement/800/600'
   }
 ];

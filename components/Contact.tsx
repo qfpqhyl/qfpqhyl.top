@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MessageSquare } from 'lucide-react';
+import { Mail, MessageSquare, ExternalLink } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
@@ -17,7 +17,8 @@ const Contact: React.FC = () => {
             
             <h2 className="text-3xl lg:text-5xl font-bold text-text">联系方式</h2>
             <p className="text-muted text-lg max-w-xl mx-auto">
-              欢迎访问我的个人博客，或通过邮件与我联系。我会分享生活随笔、开发心得和技术教程。
+              欢迎访问我的个人博客，或通过邮件与我联系。<br />
+              我会分享生活随笔、开发心得和技术教程。
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
@@ -27,13 +28,14 @@ const Contact: React.FC = () => {
                 rel="noreferrer"
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-accent text-white font-semibold hover:bg-accent/90 transition-all shadow-lg shadow-accent/25 flex items-center justify-center gap-2"
               >
-                <Mail className="h-5 w-5" />
+                <ExternalLink className="h-5 w-5" />
                 访问博客
               </a>
               <a 
                 href="mailto:qfpqhyl@gmail.com" 
-                className="w-full sm:w-auto px-8 py-4 rounded-xl bg-background text-text font-semibold hover:bg-surface transition-all border border-muted/30"
+                className="w-full sm:w-auto px-8 py-4 rounded-xl bg-background text-text font-semibold hover:bg-surface transition-all border border-muted/30 flex items-center justify-center gap-2"
               >
+                <Mail className="h-5 w-5" />
                 发送邮件
               </a>
             </div>

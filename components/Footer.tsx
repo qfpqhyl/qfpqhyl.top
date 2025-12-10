@@ -17,6 +17,7 @@ const Footer: React.FC = () => {
 
         <div className="flex gap-6">
             <a href="https://github.com/qfpqhyl" target="_blank" rel="noreferrer" className="text-muted hover:text-accent text-sm transition-colors">GitHub</a>
+            <a href="https://twitter.com/qfpqhyl" target="_blank" rel="noreferrer" className="text-muted hover:text-accent text-sm transition-colors">Twitter</a>
             <a href="https://blog.qfpqhyl.top" target="_blank" rel="noreferrer" className="text-muted hover:text-accent text-sm transition-colors">博客</a>
             <a href="mailto:qfpqhyl@gmail.com" className="text-muted hover:text-accent text-sm transition-colors">邮件</a>
         </div>
