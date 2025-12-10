@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>秋风飘起黄叶落 | 强化学习研究 & 开发者</title>
+    <meta name="description" content="西安电子科技大学研究生，专注于强化学习研究，分享开发心得与技术教程" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              primary: '#37352f',
+              secondary: '#9b9a97',
+              accent: '#e16259',
+              background: '#ffffff',
+              surface: '#f7f6f3',
+              text: '#37352f',
+              muted: '#9b9a97',
+              success: '#0f7b6c',
+              warning: '#d9730d',
+              error: '#df5452',
+              info: '#0b6e99',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Force serif fonts for ALL elements - maximum specificity */
+      *, *::before, *::after {
+        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+      }
+      
+      /* Override specific elements that might need different handling */
+      html, body {
+        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+      }
+      
+      /* Ensure all text elements use serif */
+      [class*="font-"], [class*="text"], div, span, p, a, h1, h2, h3, h4, h5, h6, 
+      button, input, textarea, select, li, td, th, label, strong, em, small, 
+      .text-sm, .text-lg, .text-xl, .text-2xl, .text-3xl, .text-4xl, .text-5xl, .text-6xl, .text-7xl {
+        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+      }
+      
+      /* Explicitly set monospace for code elements only */
+      code, pre, .font-mono, [class*="mono"], [class*="code"] {
+        font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+      }
+      
+      /* Remove any font-sans or sans-serif classes */
+      .font-sans {
+        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+      }
+      
+      /* Custom scrollbar for Webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f7f6f3; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #9b9a97; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #37352f; 
+      }
+      
+      /* Additional overrides for font classes */
+      .font-serif {
+        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-text antialiased selection:bg-accent selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
