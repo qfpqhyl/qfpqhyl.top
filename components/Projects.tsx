@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, FolderGit2 } from 'lucide-react';
+import { ExternalLink, Github, FolderGit2, ArrowRight } from 'lucide-react';
 import { Project } from '../types';
 
 // 基于用户信息的精选项目
@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
                 <p className="text-muted">一些我的近期项目和开发心得。</p>
             </div>
             <a href="https://github.com/qfpqhyl" target="_blank" rel="noreferrer" className="text-accent hover:text-secondary transition-colors flex items-center gap-2 font-medium">
-                在 GitHub 上查看更多 <ArrowRightIcon />
+                在 GitHub 上查看更多 <ArrowRight className="h-4 w-4" />
             </a>
         </div>
 
@@ -110,9 +110,5 @@ const Projects: React.FC = () => {
     </section>
   );
 };
-
-const ArrowRightIcon = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-);
 
 export default Projects;
