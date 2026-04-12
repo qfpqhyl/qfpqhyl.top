@@ -1,27 +1,20 @@
-import React from 'react';
-
-export interface Project {
-  id: number;
-  title: string;
-  description: string;
-  tags: string[];
-  link?: string;
-  github?: string;
-  imageUrl: string;
-}
+import type { LucideIcon } from 'lucide-react';
 
 export interface SocialLink {
-  platform: string;
-  url: string;
-  icon: React.ComponentType<any>;
-}
-
-export interface NavItem {
   label: string;
   href: string;
+  icon: LucideIcon;
 }
 
-export interface Skill {
-  name: string;
-  category: 'frontend' | 'backend' | 'tools';
+export interface ArticleItem {
+  title: string;
+  href: string;
+  date: string;
+}
+
+export interface ToolItem {
+  title: string;
+  href: string;
+  description: string;
+  updatedAt: string;
 }

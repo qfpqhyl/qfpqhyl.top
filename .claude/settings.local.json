@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "WebFetch(domain:base-ui.com)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "WebFetch(domain:blog.qfpqhyl.top)",
+      "Bash(gh api:*)",
+      "Bash(curl:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

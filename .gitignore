@@ -23,4 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 CLAUDE.md
-node_modules

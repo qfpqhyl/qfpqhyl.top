@@ -1,20 +1,17 @@
-import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="min-h-screen bg-background text-text">
       <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
+      <main className="px-4 pb-10 pt-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex w-full max-w-6xl flex-col gap-4">
+          <Hero />
+          <Projects />
+        </div>
       </main>
       <Footer />
     </div>

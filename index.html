@@ -3,178 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>秋风飘起黄叶落 | 强化学习研究 & 全栈开发者 | 西安电子科技大学</title>
-    <meta name="description" content="秋风飘起黄叶落 - 西安电子科技大学研究生，专注于强化学习(Reinforcement Learning)研究。分享Python开发、React前端、机器学习技术教程和项目经验。" />
-    
-    <!-- SEO Meta Tags -->
-    <meta name="keywords" content="强化学习,机器学习,Python,React,前端开发,全栈开发,西安电子科技大学,研究,博客,技术分享" />
+    <title>秋风飘起黄叶落 | 文章与工具</title>
+    <meta name="description" content="秋风飘起黄叶落的个人主页，集中展示最近文章、GitHub 工具和常用入口。" />
+    <meta name="keywords" content="秋风飘起黄叶落,qfpqhyl,个人导航,GitHub,博客,作品集" />
     <meta name="author" content="秋风飘起黄叶落" />
     <meta name="robots" content="index, follow" />
-    <meta name="language" content="zh-CN" />
-    
-    <!-- Open Graph Meta Tags for Social Media -->
-    <meta property="og:title" content="秋风飘起黄叶落 | 强化学习研究 & 开发者" />
-    <meta property="og:description" content="西安电子科技大学研究生，专注于强化学习研究，分享开发心得与技术教程。" />
+    <meta name="theme-color" content="#f5f3ef" />
+
+    <meta property="og:title" content="秋风飘起黄叶落 | 文章与工具" />
+    <meta property="og:description" content="一个扁平化的个人主页，收拢最近文章、GitHub 工具与常用入口。" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://qfpqhyl.top" />
-    <meta property="og:image" content="https://qfpqhyl.top/og-image.jpg" />
-    <meta property="og:site_name" content="秋风飘起黄叶落的个人网站" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/95489429?v=4" />
+    <meta property="og:site_name" content="秋风飘起黄叶落" />
     <meta property="og:locale" content="zh_CN" />
-    
-    <!-- Twitter Card Meta Tags -->
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@qfpqhyl" />
     <meta name="twitter:creator" content="@qfpqhyl" />
-    <meta name="twitter:title" content="秋风飘起黄叶落 | 强化学习研究 & 开发者" />
-    <meta name="twitter:description" content="西安电子科技大学研究生，专注于强化学习研究，分享开发心得与技术教程。" />
-    <meta name="twitter:image" content="https://qfpqhyl.top/twitter-image.jpg" />
-    
-    <!-- Canonical URL -->
+    <meta name="twitter:title" content="秋风飘起黄叶落 | 文章与工具" />
+    <meta name="twitter:description" content="一个扁平化的个人主页，收拢最近文章、GitHub 工具与常用入口。" />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/95489429?v=4" />
+
     <link rel="canonical" href="https://qfpqhyl.top" />
-    
-    <!-- Additional Meta Tags -->
-    <meta name="theme-color" content="#37352f" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#37352f" />
-    <meta name="msapplication-TileColor" content="#37352f" />
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%2337352f'/%3E%3Cpath d='M8 12h2v8H8zm4 0h2v8h-2zm4 0h2v8h-2zm4 0h2v8h-2z' fill='%23e16259'/%3E%3Ctext x='16' y='24' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='10' font-weight='bold'%3EQL%3C/text%3E%3C/svg%3E" />
-    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Ccircle cx='90' cy='90' r='90' fill='%2337352f'/%3E%3Cpath d='M45 68h11v44H45zm22 0h11v44H67zm22 0h11v44H89zm22 0h11v44h-11z' fill='%23e16259'/%3E%3Ctext x='90' y='135' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='56' font-weight='bold'%3EQL%3C/text%3E%3C/svg%3E" />
+    <link rel="icon" type="image/png" href="/avatar.png" />
+    <link rel="apple-touch-icon" href="/avatar.png" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script>
       tailwind.config = {
         theme: {
           extend: {
             fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              serif: ['Merriweather', 'serif'],
-              mono: ['JetBrains Mono', 'monospace'],
+              sans: ['Noto Serif SC', 'serif'],
+              serif: ['Noto Serif SC', 'serif'],
             },
             colors: {
-              primary: '#37352f',
-              secondary: '#9b9a97',
-              accent: '#e16259',
-              background: '#ffffff',
-              surface: '#f7f6f3',
-              text: '#37352f',
-              muted: '#9b9a97',
-              success: '#0f7b6c',
-              warning: '#d9730d',
-              error: '#df5452',
-              info: '#0b6e99',
-            }
-          }
-        }
-      }
+              background: '#f5f3ef',
+              surface: '#fbfaf8',
+              text: '#111111',
+              muted: '#666666',
+              line: '#ded8cf',
+              accent: '#111111',
+            },
+            boxShadow: {
+              soft: '0 0 0 rgba(17, 17, 17, 0)',
+            },
+          },
+        },
+      };
     </script>
     <style>
-      /* Force serif fonts for ALL elements - maximum specificity */
-      *, *::before, *::after {
-        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+      html, body, #root {
+        min-height: 100%;
       }
-      
-      /* Override specific elements that might need different handling */
-      html, body {
-        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+
+      body {
+        margin: 0;
+        font-family: 'Noto Serif SC', serif;
+        background: #f5f3ef;
+        color: #111111;
       }
-      
-      /* Ensure all text elements use serif */
-      [class*="font-"], [class*="text"], div, span, p, a, h1, h2, h3, h4, h5, h6, 
-      button, input, textarea, select, li, td, th, label, strong, em, small, 
-      .text-sm, .text-lg, .text-xl, .text-2xl, .text-3xl, .text-4xl, .text-5xl, .text-6xl, .text-7xl {
-        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+
+      a {
+        color: inherit;
+        text-decoration: none;
       }
-      
-      /* Explicitly set monospace for code elements only */
-      code, pre, .font-mono, [class*="mono"], [class*="code"] {
-        font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+
+      * {
+        box-sizing: border-box;
       }
-      
-      /* Remove any font-sans or sans-serif classes */
-      .font-sans {
-        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
-      }
-      
-      /* Custom scrollbar for Webkit */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #f7f6f3; 
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #9b9a97; 
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #37352f; 
-      }
-      
-      /* Additional overrides for font classes */
-      .font-serif {
-        font-family: 'Merriweather', 'Times New Roman', Times, serif !important;
+
+      ::selection {
+        background: #111111;
+        color: #fbfaf8;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.1/",
-    "react": "https://aistudiocdn.com/react@^19.2.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
-  }
-}
-</script>
-
-    
-    <!-- Structured Data for SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "秋风飘起黄叶落",
-      "alternateName": "qfpqhyl",
-      "url": "https://qfpqhyl.top",
-      "sameAs": [
-        "https://github.com/qfpqhyl",
-        "https://twitter.com/qfpqhyl",
-        "https://blog.qfpqhyl.top"
-      ],
-      "jobTitle": "研究生 & 全栈开发者",
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "西安电子科技大学"
-      },
-      "knowsAbout": [
-        "强化学习",
-        "机器学习", 
-        "Python开发",
-        "React前端开发",
-        "全栈开发"
-      ],
-      "description": "西安电子科技大学研究生，专注于强化学习研究，热衷于开发各种有意思的项目，分享技术教程和开发心得。"
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "秋风飘起黄叶落的个人网站",
-      "url": "https://qfpqhyl.top",
-      "description": "个人博客和技术分享平台，专注于强化学习研究和全栈开发",
-      "inLanguage": "zh-CN",
-      "author": {
-        "@type": "Person",
-        "name": "秋风飘起黄叶落"
-      }
-    }
-    </script>
-</head>
-  <body class="bg-background text-text antialiased selection:bg-accent selection:text-white">
+  </head>
+  <body class="bg-background text-text antialiased">
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
