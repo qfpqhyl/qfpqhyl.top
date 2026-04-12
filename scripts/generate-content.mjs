@@ -1,14 +1,15 @@
 import { writeFile, mkdir } from 'node:fs/promises';
+import { profile } from '../config/profile.ts';
 
-const BLOG_URL = 'https://blog.qfpqhyl.top/';
-const GITHUB_REPOS_API = 'https://api.github.com/users/qfpqhyl/repos?sort=updated&per_page=30';
+const BLOG_URL = profile.blogUrl;
+const GITHUB_REPOS_API = `https://api.github.com/users/${profile.handle}/repos?sort=updated&per_page=30`;
 const MAX_ARTICLES = 6;
 const MAX_TOOLS = 5;
 
 async function fetchText(url) {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'qfpqhyl.top-content-generator',
+      'User-Agent': `${profile.handle}-content-generator`,
       Accept: 'text/html,application/json;q=0.9,*/*;q=0.8',
     },
   });
@@ -23,7 +24,7 @@ async function fetchText(url) {
 async function fetchJson(url) {
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'qfpqhyl.top-content-generator',
+      'User-Agent': `${profile.handle}-content-generator`,
       Accept: 'application/vnd.github+json',
     },
   });

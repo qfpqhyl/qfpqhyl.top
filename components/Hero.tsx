@@ -1,11 +1,12 @@
 import { Tooltip } from '@base-ui/react';
 import { ArrowUpRight, Github, Rss, Twitter } from 'lucide-react';
+import { profile } from '../config/profile';
 import type { SocialLink } from '../types';
 
 const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com/qfpqhyl', icon: Github },
-  { label: 'Twitter', href: 'https://x.com/qfpqhyl', icon: Twitter },
-  { label: 'Blog', href: 'https://blog.qfpqhyl.top/', icon: Rss },
+  { label: 'GitHub', href: profile.githubUrl, icon: Github },
+  { label: 'Twitter', href: profile.twitterUrl, icon: Twitter },
+  { label: 'Blog', href: profile.blogUrl, icon: Rss },
 ];
 
 const Hero = () => {
@@ -14,16 +15,16 @@ const Hero = () => {
       <div className="py-4">
         <div className="space-y-6">
           <div className="space-y-3">
-            <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted">qfpqhyl.top</p>
-            <h1 className="text-4xl font-semibold tracking-tight text-text sm:text-5xl">秋风飘起黄叶落</h1>
+            <p className="text-xs font-medium uppercase tracking-[0.3em] text-muted">{profile.handle}.top</p>
+            <h1 className="text-4xl font-semibold tracking-tight text-text sm:text-5xl">{profile.siteName}</h1>
             <p className="max-w-2xl text-sm leading-7 text-muted sm:text-base">
-              这里收拢了近来的文章、手边的工具与仍在缓缓生长的项目，像一册随时续写的个人索引。
+              {profile.intro}
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="https://blog.qfpqhyl.top/"
+              href={profile.blogUrl}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 border-b border-text pb-1 text-sm font-medium text-text"
@@ -32,7 +33,7 @@ const Hero = () => {
               <ArrowUpRight className="h-4 w-4" />
             </a>
             <a
-              href="https://github.com/qfpqhyl"
+              href={profile.githubUrl}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 border-b border-transparent pb-1 text-sm text-muted transition hover:border-line hover:text-text"

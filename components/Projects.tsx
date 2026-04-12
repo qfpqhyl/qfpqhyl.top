@@ -1,17 +1,19 @@
 import { Separator } from '@base-ui/react';
 import { ArrowUpRight } from 'lucide-react';
+import { profile } from '../config/profile';
 import { siteContent } from '../data/content';
 
 const { articles, tools } = siteContent;
+const { sections } = profile;
 
 const Projects = () => {
   return (
     <section className="grid gap-10 py-2 lg:grid-cols-2 lg:gap-12">
       <div className="space-y-5">
         <div className="space-y-2">
-          <p className="text-xs font-medium uppercase tracking-[0.28em] text-muted">Articles</p>
-          <h2 className="text-2xl font-semibold tracking-tight text-text">文章列表</h2>
-          <p className="text-sm leading-7 text-muted">从博客时间线整理出的最近文章。</p>
+          <p className="text-xs font-medium uppercase tracking-[0.28em] text-muted">{sections.articlesEyebrow}</p>
+          <h2 className="text-2xl font-semibold tracking-tight text-text">{sections.articlesTitle}</h2>
+          <p className="text-sm leading-7 text-muted">{sections.articlesDescription}</p>
         </div>
 
         <Separator className="h-px w-full bg-line" />
@@ -43,9 +45,9 @@ const Projects = () => {
 
       <div className="space-y-5">
         <div className="space-y-2">
-          <p className="text-xs font-medium uppercase tracking-[0.28em] text-muted">Recent Tools</p>
-          <h2 className="text-2xl font-semibold tracking-tight text-text">最近工具</h2>
-          <p className="text-sm leading-7 text-muted">根据 GitHub 最近更新时间整理出的公开仓库。</p>
+          <p className="text-xs font-medium uppercase tracking-[0.28em] text-muted">{sections.toolsEyebrow}</p>
+          <h2 className="text-2xl font-semibold tracking-tight text-text">{sections.toolsTitle}</h2>
+          <p className="text-sm leading-7 text-muted">{sections.toolsDescription}</p>
         </div>
 
         <Separator className="h-px w-full bg-line" />
