@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-04-12T09:54:07.188Z",
+  "generatedAt": "2026-04-12T09:59:23.507Z",
   "articles": [
     {
       "title": "如何使用Cloudflare Tunnel",
@@ -42,6 +42,12 @@ export const siteContent: SiteContent = {
   ],
   "tools": [
     {
+      "title": "qfpqhyl.top",
+      "href": "https://github.com/qfpqhyl/qfpqhyl.top",
+      "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
+      "updatedAt": "2026-04-12"
+    },
+    {
       "title": "MindFlow",
       "href": "https://github.com/qfpqhyl/MindFlow",
       "description": "MindFlow 是一个智能工作流应用，将 AI 聊天、知识管理和任务提醒完美整合。通过对话生成文档、自动创建任务并设置邮件提醒，让您的工作流更加高效。",
@@ -64,12 +70,6 @@ export const siteContent: SiteContent = {
       "href": "https://github.com/qfpqhyl/server-scripts",
       "description": "🧰 一站式 Linux 服务器配置与环境部署脚本，面向国内开发者与科研人员。 支持系统初始化、代理安装、Docker、Python 环境与性能优化。 快速构建科研计算与开发服务器，解决「部署慢、网络差、环境乱」等痛点。",
       "updatedAt": "2026-02-14"
-    },
-    {
-      "title": "CUMCM2023B",
-      "href": "https://github.com/qfpqhyl/CUMCM2023B",
-      "description": "2023年全国大学生数学建模比赛B题（河北省一等奖）",
-      "updatedAt": "2026-02-13"
     }
   ]
 };
