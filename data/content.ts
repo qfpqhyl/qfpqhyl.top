@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-04-12T09:44:25.228Z",
+  "generatedAt": "2026-04-12T09:54:07.188Z",
   "articles": [
     {
       "title": "如何使用Cloudflare Tunnel",
