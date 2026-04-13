@@ -7,8 +7,13 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-04-13T01:56:15.377Z",
+  "generatedAt": "2026-04-13T03:52:14.289Z",
   "articles": [
+    {
+      "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
+      "href": "https://blog.qfpqhyl.top/2026/04/13/github-actions-refresh-content/",
+      "date": "2026-04-13"
+    },
     {
       "title": "如何使用Cloudflare Tunnel",
       "href": "https://blog.qfpqhyl.top/2026/01/24/how-to-use-Cloudflare-Tunnel/",
@@ -33,14 +38,15 @@ export const siteContent: SiteContent = {
       "title": "周记第一篇：重新出发",
       "href": "https://blog.qfpqhyl.top/2025/11/17/week1/",
       "date": "2025-11-17"
-    },
-    {
-      "title": "读研后悔吗？",
-      "href": "https://blog.qfpqhyl.top/2025/11/16/regret-to-read/",
-      "date": "2025-11-16"
     }
   ],
   "tools": [
+    {
+      "title": "qfpqhyl.github.io",
+      "href": "https://github.com/qfpqhyl/qfpqhyl.github.io",
+      "description": "最近更新的公开仓库。",
+      "updatedAt": "2026-04-13"
+    },
     {
       "title": "qfpqhyl.top",
       "href": "https://github.com/qfpqhyl/qfpqhyl.top",
@@ -64,12 +70,6 @@ export const siteContent: SiteContent = {
       "href": "https://github.com/qfpqhyl/qfpqhyl",
       "description": "最近更新的公开仓库。",
       "updatedAt": "2026-03-09"
-    },
-    {
-      "title": "server-scripts",
-      "href": "https://github.com/qfpqhyl/server-scripts",
-      "description": "🧰 一站式 Linux 服务器配置与环境部署脚本，面向国内开发者与科研人员。 支持系统初始化、代理安装、Docker、Python 环境与性能优化。 快速构建科研计算与开发服务器，解决「部署慢、网络差、环境乱」等痛点。",
-      "updatedAt": "2026-02-14"
     }
   ]
 };
