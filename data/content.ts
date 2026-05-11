@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-05-10T02:07:57.269Z",
+  "generatedAt": "2026-05-11T02:26:45.040Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
@@ -42,34 +42,34 @@ export const siteContent: SiteContent = {
   ],
   "tools": [
     {
-      "title": "qfpqhyl.top",
-      "href": "https://github.com/qfpqhyl/qfpqhyl.top",
-      "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
-      "updatedAt": "2026-05-09"
+      "title": "local_img2bed_img",
+      "href": "https://github.com/qfpqhyl/local_img2bed_img",
+      "description": "将⌈*.md⌋中的本地图片一键上传到图床并替换⌈*.md⌋中的路径引用。",
+      "updatedAt": "2026-05-10"
     },
     {
-      "title": "WebMonitor",
-      "href": "https://github.com/qfpqhyl/WebMonitor",
-      "description": "🐍 基于 Python 的网页内容自动监控及邮件通知工具，适用于检测网页指定区域内容的变化，并在发生变动时通过邮件进行提醒。 | 🐍 A Python-based web content monitoring and email notification tool, designed to detect changes in specific sections of a webpage and send email alerts when updates occur.",
-      "updatedAt": "2026-04-16"
+      "title": "ISCC_Tools",
+      "href": "https://github.com/qfpqhyl/ISCC_Tools",
+      "description": "一些关于ISCC平台的实用脚本",
+      "updatedAt": "2026-05-10"
     },
     {
-      "title": "CodeRunner",
-      "href": "https://github.com/qfpqhyl/CodeRunner",
-      "description": "✍️ CodeRunner 是一个安全的云端 Python 代码执行平台，允许用户上传、管理并远程执行 Python 代码片段。 | ✍️ CodeRunner is a secure cloud-based Python code execution platform that allows users to upload, manage, and remotely run Python code snippets.",
-      "updatedAt": "2026-04-15"
+      "title": "date2Graduate",
+      "href": "https://github.com/qfpqhyl/date2Graduate",
+      "description": "距离2026年研究生入学考试还有多少天？",
+      "updatedAt": "2026-05-10"
     },
     {
-      "title": "qfpqhyl.github.io",
-      "href": "https://github.com/qfpqhyl/qfpqhyl.github.io",
-      "description": "最近更新的公开仓库。",
-      "updatedAt": "2026-04-13"
+      "title": "ImageWatermarkByVue3",
+      "href": "https://github.com/qfpqhyl/ImageWatermarkByVue3",
+      "description": "🤗一个基于 Vue 的练手项目，支持在线为图片添加自定义水印并实时预览，还能保存水印预设方便下次使用。",
+      "updatedAt": "2026-05-10"
     },
     {
-      "title": "MindFlow",
-      "href": "https://github.com/qfpqhyl/MindFlow",
-      "description": "MindFlow 是一个智能工作流应用，将 AI 聊天、知识管理和任务提醒完美整合。通过对话生成文档、自动创建任务并设置邮件提醒，让您的工作流更加高效。",
-      "updatedAt": "2026-04-12"
+      "title": "Yanshan-University-learning-materials-sharing",
+      "href": "https://github.com/qfpqhyl/Yanshan-University-learning-materials-sharing",
+      "description": "大学，学了吗？如学。",
+      "updatedAt": "2026-05-10"
     }
   ]
 };
