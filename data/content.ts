@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-05-11T02:26:45.040Z",
+  "generatedAt": "2026-05-12T02:12:10.794Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
@@ -42,6 +42,12 @@ export const siteContent: SiteContent = {
   ],
   "tools": [
     {
+      "title": "qfpqhyl.top",
+      "href": "https://github.com/qfpqhyl/qfpqhyl.top",
+      "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
+      "updatedAt": "2026-05-11"
+    },
+    {
       "title": "local_img2bed_img",
       "href": "https://github.com/qfpqhyl/local_img2bed_img",
       "description": "将⌈*.md⌋中的本地图片一键上传到图床并替换⌈*.md⌋中的路径引用。",
@@ -63,12 +69,6 @@ export const siteContent: SiteContent = {
       "title": "ImageWatermarkByVue3",
       "href": "https://github.com/qfpqhyl/ImageWatermarkByVue3",
       "description": "🤗一个基于 Vue 的练手项目，支持在线为图片添加自定义水印并实时预览，还能保存水印预设方便下次使用。",
-      "updatedAt": "2026-05-10"
-    },
-    {
-      "title": "Yanshan-University-learning-materials-sharing",
-      "href": "https://github.com/qfpqhyl/Yanshan-University-learning-materials-sharing",
-      "description": "大学，学了吗？如学。",
       "updatedAt": "2026-05-10"
     }
   ]
