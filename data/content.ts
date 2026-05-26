@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-05-25T02:40:21.473Z",
+  "generatedAt": "2026-05-26T02:30:04.655Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
@@ -42,10 +42,16 @@ export const siteContent: SiteContent = {
   ],
   "tools": [
     {
+      "title": "WebMonitor",
+      "href": "https://github.com/qfpqhyl/WebMonitor",
+      "description": "🐍 基于 Python 的网页内容自动监控及邮件通知工具，适用于检测网页指定区域内容的变化，并在发生变动时通过邮件进行提醒。 | 🐍 A Python-based web content monitoring and email notification tool, designed to detect changes in specific sections of a webpage and send email alerts when updates occur.",
+      "updatedAt": "2026-05-25"
+    },
+    {
       "title": "qfpqhyl.top",
       "href": "https://github.com/qfpqhyl/qfpqhyl.top",
       "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
-      "updatedAt": "2026-05-24"
+      "updatedAt": "2026-05-25"
     },
     {
       "title": "local_img2bed_img",
@@ -63,12 +69,6 @@ export const siteContent: SiteContent = {
       "title": "date2Graduate",
       "href": "https://github.com/qfpqhyl/date2Graduate",
       "description": "距离2026年研究生入学考试还有多少天？",
-      "updatedAt": "2026-05-10"
-    },
-    {
-      "title": "ImageWatermarkByVue3",
-      "href": "https://github.com/qfpqhyl/ImageWatermarkByVue3",
-      "description": "🤗一个基于 Vue 的练手项目，支持在线为图片添加自定义水印并实时预览，还能保存水印预设方便下次使用。",
       "updatedAt": "2026-05-10"
     }
   ]
