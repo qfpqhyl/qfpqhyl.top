@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-05-30T02:15:12.379Z",
+  "generatedAt": "2026-05-31T02:41:19.723Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
@@ -42,10 +42,16 @@ export const siteContent: SiteContent = {
   ],
   "tools": [
     {
+      "title": "Yanshan-University-learning-materials-sharing",
+      "href": "https://github.com/qfpqhyl/Yanshan-University-learning-materials-sharing",
+      "description": "大学，学了吗？如学。",
+      "updatedAt": "2026-05-30"
+    },
+    {
       "title": "qfpqhyl.top",
       "href": "https://github.com/qfpqhyl/qfpqhyl.top",
       "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
-      "updatedAt": "2026-05-29"
+      "updatedAt": "2026-05-30"
     },
     {
       "title": "WebMonitor",
@@ -63,12 +69,6 @@ export const siteContent: SiteContent = {
       "title": "ISCC_Tools",
       "href": "https://github.com/qfpqhyl/ISCC_Tools",
       "description": "一些关于ISCC平台的实用脚本",
-      "updatedAt": "2026-05-10"
-    },
-    {
-      "title": "date2Graduate",
-      "href": "https://github.com/qfpqhyl/date2Graduate",
-      "description": "距离2026年研究生入学考试还有多少天？",
       "updatedAt": "2026-05-10"
     }
   ]
