@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-07-29T01:50:04.796Z",
+  "generatedAt": "2026-07-30T01:43:02.823Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
@@ -42,10 +42,16 @@ export const siteContent: SiteContent = {
   ],
   "tools": [
     {
+      "title": "WebMonitor",
+      "href": "https://github.com/qfpqhyl/WebMonitor",
+      "description": "🐍 基于 Python 的网页内容自动监控及邮件通知工具，适用于检测网页指定区域内容的变化，并在发生变动时通过邮件进行提醒。 | 🐍 A Python-based web content monitoring and email notification tool, designed to detect changes in specific sections of a webpage and send email alerts when updates occur.",
+      "updatedAt": "2026-07-29"
+    },
+    {
       "title": "qfpqhyl.top",
       "href": "https://github.com/qfpqhyl/qfpqhyl.top",
       "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
-      "updatedAt": "2026-07-28"
+      "updatedAt": "2026-07-29"
     },
     {
       "title": "ISCC_Tools",
@@ -64,12 +70,6 @@ export const siteContent: SiteContent = {
       "href": "https://github.com/qfpqhyl/Yanshan-University-learning-materials-sharing",
       "description": "大学，学了吗？如学。",
       "updatedAt": "2026-06-19"
-    },
-    {
-      "title": "CUMCM2023B",
-      "href": "https://github.com/qfpqhyl/CUMCM2023B",
-      "description": "2023年全国大学生数学建模比赛B题（河北省一等奖）",
-      "updatedAt": "2026-06-16"
     }
   ]
 };
