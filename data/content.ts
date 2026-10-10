@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-10-08T03:44:48.385Z",
+  "generatedAt": "2026-10-10T02:23:01.161Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
@@ -45,31 +45,31 @@ export const siteContent: SiteContent = {
       "title": "qfpqhyl.top",
       "href": "https://github.com/ox0pine/qfpqhyl.top",
       "description": "一个使用 React、Vite 和 Base UI 搭建的个人主页，展示最近文章与工具。「没错，正是这个页面，Github Action每天都会抓取最新的文章和仓库。」",
-      "updatedAt": "2026-10-07"
+      "updatedAt": "2026-10-10"
     },
     {
-      "title": "WebMonitor-Agent",
-      "href": "https://github.com/ox0pine/WebMonitor-Agent",
-      "description": "WebMonitor-Agent：AI 驱动的下一代网页监控引擎。支持 Agent 对话生成脚本，深度解析静态及 React/Vue 动态页面接口，实现全自动化定时任务与数据监控。",
-      "updatedAt": "2026-10-02"
+      "title": "local_img2bed_img",
+      "href": "https://github.com/ox0pine/local_img2bed_img",
+      "description": "将⌈*.md⌋中的本地图片一键上传到图床并替换⌈*.md⌋中的路径引用。",
+      "updatedAt": "2026-10-09"
     },
     {
-      "title": "qfpqhyl",
-      "href": "https://github.com/ox0pine/qfpqhyl",
-      "description": "最近更新的公开仓库。",
-      "updatedAt": "2026-09-26"
-    },
-    {
-      "title": "WebMonitor",
-      "href": "https://github.com/ox0pine/WebMonitor",
-      "description": "🐍 基于 Python 的网页内容自动监控及邮件通知工具，适用于检测网页指定区域内容的变化，并在发生变动时通过邮件进行提醒。 | 🐍 A Python-based web content monitoring and email notification tool, designed to detect changes in specific sections of a webpage and send email alerts when updates occur.",
-      "updatedAt": "2026-07-29"
+      "title": "date2Graduate",
+      "href": "https://github.com/ox0pine/date2Graduate",
+      "description": "距离2026年研究生入学考试还有多少天？",
+      "updatedAt": "2026-10-09"
     },
     {
       "title": "ISCC_Tools",
       "href": "https://github.com/ox0pine/ISCC_Tools",
       "description": "一些关于ISCC平台的实用脚本",
-      "updatedAt": "2026-07-10"
+      "updatedAt": "2026-10-09"
+    },
+    {
+      "title": "ShellAssistant",
+      "href": "https://github.com/ox0pine/ShellAssistant",
+      "description": "通过命令行交互，提供Shell脚本建议和错误修正。",
+      "updatedAt": "2026-10-09"
     }
   ]
 };
