@@ -7,7 +7,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  "generatedAt": "2026-10-10T02:23:01.161Z",
+  "generatedAt": "2026-10-10T03:33:51.837Z",
   "articles": [
     {
       "title": "我是怎么把 GitHub Actions 用成个人主页内容编辑器的",
